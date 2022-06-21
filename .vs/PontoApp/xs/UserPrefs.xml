@@ -1,4 +1,49 @@
 ﻿<Properties StartupConfiguration="{1FDA4359-00AB-4A7C-A044-6E5F198FEC47}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PontoApp/Properties/launchSettings.json">
+    <Files>
+      <File FileName="PontoApp/Views/Home/Index.cshtml" Line="6" Column="45" />
+      <File FileName="PontoApp/Views/Home/Privacy.cshtml" Line="1" Column="1" />
+      <File FileName="PontoApp/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="PontoApp/Program.cs" Line="1" Column="1" />
+      <File FileName="PontoApp/Models/Employee.cs" Line="1" Column="1" />
+      <File FileName="PontoApp/Models/ErrorViewModel.cs" Line="1" Column="1" />
+      <File FileName="PontoApp/appsettings.json" Line="1" Column="1" />
+      <File FileName="PontoApp/appsettings.Development.json" Line="1" Column="1" />
+      <File FileName="PontoApp/Startup.cs" Line="1" Column="1" />
+      <File FileName="PontoApp/Properties/launchSettings.json" Line="16" Column="8" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PontoApp" expanded="True">
+            <Node name="PontoApp" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="lib" expanded="True" />
+              </Node>
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.PontoApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.PontoApp FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

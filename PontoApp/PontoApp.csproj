@@ -25,4 +25,7 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Models\EmptyClass.cs" />
+  </ItemGroup>
 </Project>

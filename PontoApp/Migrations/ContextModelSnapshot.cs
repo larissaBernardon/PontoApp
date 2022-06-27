@@ -68,6 +68,26 @@ namespace PontoApp.Migrations
 
                     b.ToTable("Employee");
                 });
+
+            modelBuilder.Entity("PontoApp.Models.PunchTheClock", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<DateTime?>("finishedIn")
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime?>("startedIn")
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("userId")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("PunchTheClock");
+                });
 #pragma warning restore 612, 618
         }
     }

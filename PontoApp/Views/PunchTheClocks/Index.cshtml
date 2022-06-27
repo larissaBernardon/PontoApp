@@ -1,0 +1,47 @@
+﻿@model IEnumerable<PontoApp.Models.PunchTheClock>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a role="button" asp-action="Create" class="btn btn-">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.userId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.startedIn)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.finishedIn)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.userId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.startedIn)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.finishedIn)
+            </td>
+            <td>
+                <a role="button" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary">Edit</a> |
+                <a role="button" asp-action="Details" asp-route-id="@item.Id" class="btn btn-warning">Details</a> |
+                <a role="button" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

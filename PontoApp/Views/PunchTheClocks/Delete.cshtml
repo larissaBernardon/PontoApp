@@ -1,14 +1,10 @@
 ﻿@model PontoApp.Models.PunchTheClock
 
-@{
-    ViewData["Title"] = "Delete";
-}
+<h1>Deletar ponto</h1>
 
-<h1>Deletar</h1>
-
-<h3>Você tem certeza que deseja deletar?</h3>
+<h3>Você tem certeza que deseja deletar esse ponto?</h3>
 <div>
-    <h4>Bater ponto</h4>
+    <h4>Pontos</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
@@ -33,7 +29,7 @@
     
     <form asp-action="Delete">
         <input type="hidden" asp-for="Id" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
+        <input type="submit" value="Deletar" class="btn btn-light w-1 p-2" /> |
+        <a asp-action="Index">Voltar</a>
     </form>
 </div>

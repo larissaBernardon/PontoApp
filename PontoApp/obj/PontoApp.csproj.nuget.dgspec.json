@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lucas\\Desktop\\Atualizado\\PontoApp-main\\PontoApp\\PontoApp.csproj": {}
+    "C:\\Users\\Lucas\\Documents\\GitHub\\PontoApp\\PontoApp\\PontoApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lucas\\Desktop\\Atualizado\\PontoApp-main\\PontoApp\\PontoApp.csproj": {
+    "C:\\Users\\Lucas\\Documents\\GitHub\\PontoApp\\PontoApp\\PontoApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lucas\\Desktop\\Atualizado\\PontoApp-main\\PontoApp\\PontoApp.csproj",
+        "projectUniqueName": "C:\\Users\\Lucas\\Documents\\GitHub\\PontoApp\\PontoApp\\PontoApp.csproj",
         "projectName": "PontoApp",
-        "projectPath": "C:\\Users\\Lucas\\Desktop\\Atualizado\\PontoApp-main\\PontoApp\\PontoApp.csproj",
+        "projectPath": "C:\\Users\\Lucas\\Documents\\GitHub\\PontoApp\\PontoApp\\PontoApp.csproj",
         "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lucas\\Desktop\\Atualizado\\PontoApp-main\\PontoApp\\obj\\",
+        "outputPath": "C:\\Users\\Lucas\\Documents\\GitHub\\PontoApp\\PontoApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",

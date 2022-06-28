@@ -8,117 +8,117 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PontoApp
 build_property.RootNamespace = PontoApp
-build_property.ProjectDir = C:\Users\Lucas\Desktop\Atualizado\PontoApp-main\PontoApp\
+build_property.ProjectDir = C:\Users\Lucas\Documents\GitHub\PontoApp\PontoApp\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Lucas\Desktop\Atualizado\PontoApp-main\PontoApp
+build_property.MSBuildProjectDirectory = C:\Users\Lucas\Documents\GitHub\PontoApp\PontoApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Lucas/Desktop/Atualizado/PontoApp-main/PontoApp/Views/Announcements/Create.cshtml]
+[C:/Users/Lucas/Documents/GitHub/PontoApp/PontoApp/Views/Announcements/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5ub3VuY2VtZW50c1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lucas/Desktop/Atualizado/PontoApp-main/PontoApp/Views/Announcements/Delete.cshtml]
+[C:/Users/Lucas/Documents/GitHub/PontoApp/PontoApp/Views/Announcements/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5ub3VuY2VtZW50c1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lucas/Desktop/Atualizado/PontoApp-main/PontoApp/Views/Announcements/Details.cshtml]
+[C:/Users/Lucas/Documents/GitHub/PontoApp/PontoApp/Views/Announcements/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5ub3VuY2VtZW50c1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lucas/Desktop/Atualizado/PontoApp-main/PontoApp/Views/Announcements/Edit.cshtml]
+[C:/Users/Lucas/Documents/GitHub/PontoApp/PontoApp/Views/Announcements/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5ub3VuY2VtZW50c1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lucas/Desktop/Atualizado/PontoApp-main/PontoApp/Views/Announcements/Index.cshtml]
+[C:/Users/Lucas/Documents/GitHub/PontoApp/PontoApp/Views/Announcements/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5ub3VuY2VtZW50c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lucas/Desktop/Atualizado/PontoApp-main/PontoApp/Views/Companies/Create.cshtml]
+[C:/Users/Lucas/Documents/GitHub/PontoApp/PontoApp/Views/Companies/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFuaWVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lucas/Desktop/Atualizado/PontoApp-main/PontoApp/Views/Companies/Delete.cshtml]
+[C:/Users/Lucas/Documents/GitHub/PontoApp/PontoApp/Views/Companies/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFuaWVzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lucas/Desktop/Atualizado/PontoApp-main/PontoApp/Views/Companies/Details.cshtml]
+[C:/Users/Lucas/Documents/GitHub/PontoApp/PontoApp/Views/Companies/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFuaWVzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lucas/Desktop/Atualizado/PontoApp-main/PontoApp/Views/Companies/Edit.cshtml]
+[C:/Users/Lucas/Documents/GitHub/PontoApp/PontoApp/Views/Companies/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFuaWVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lucas/Desktop/Atualizado/PontoApp-main/PontoApp/Views/Companies/Index.cshtml]
+[C:/Users/Lucas/Documents/GitHub/PontoApp/PontoApp/Views/Companies/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFuaWVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lucas/Desktop/Atualizado/PontoApp-main/PontoApp/Views/Employees/Create.cshtml]
+[C:/Users/Lucas/Documents/GitHub/PontoApp/PontoApp/Views/Employees/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lucas/Desktop/Atualizado/PontoApp-main/PontoApp/Views/Employees/Delete.cshtml]
+[C:/Users/Lucas/Documents/GitHub/PontoApp/PontoApp/Views/Employees/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lucas/Desktop/Atualizado/PontoApp-main/PontoApp/Views/Employees/Details.cshtml]
+[C:/Users/Lucas/Documents/GitHub/PontoApp/PontoApp/Views/Employees/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lucas/Desktop/Atualizado/PontoApp-main/PontoApp/Views/Employees/Edit.cshtml]
+[C:/Users/Lucas/Documents/GitHub/PontoApp/PontoApp/Views/Employees/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lucas/Desktop/Atualizado/PontoApp-main/PontoApp/Views/Employees/Index.cshtml]
+[C:/Users/Lucas/Documents/GitHub/PontoApp/PontoApp/Views/Employees/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lucas/Desktop/Atualizado/PontoApp-main/PontoApp/Views/Home/Index.cshtml]
+[C:/Users/Lucas/Documents/GitHub/PontoApp/PontoApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lucas/Desktop/Atualizado/PontoApp-main/PontoApp/Views/Home/Privacy.cshtml]
+[C:/Users/Lucas/Documents/GitHub/PontoApp/PontoApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lucas/Desktop/Atualizado/PontoApp-main/PontoApp/Views/PunchTheClocks/Create.cshtml]
+[C:/Users/Lucas/Documents/GitHub/PontoApp/PontoApp/Views/PunchTheClocks/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVuY2hUaGVDbG9ja3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lucas/Desktop/Atualizado/PontoApp-main/PontoApp/Views/PunchTheClocks/Delete.cshtml]
+[C:/Users/Lucas/Documents/GitHub/PontoApp/PontoApp/Views/PunchTheClocks/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVuY2hUaGVDbG9ja3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lucas/Desktop/Atualizado/PontoApp-main/PontoApp/Views/PunchTheClocks/Details.cshtml]
+[C:/Users/Lucas/Documents/GitHub/PontoApp/PontoApp/Views/PunchTheClocks/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVuY2hUaGVDbG9ja3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lucas/Desktop/Atualizado/PontoApp-main/PontoApp/Views/PunchTheClocks/Edit.cshtml]
+[C:/Users/Lucas/Documents/GitHub/PontoApp/PontoApp/Views/PunchTheClocks/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVuY2hUaGVDbG9ja3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lucas/Desktop/Atualizado/PontoApp-main/PontoApp/Views/PunchTheClocks/Index.cshtml]
+[C:/Users/Lucas/Documents/GitHub/PontoApp/PontoApp/Views/PunchTheClocks/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVuY2hUaGVDbG9ja3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lucas/Desktop/Atualizado/PontoApp-main/PontoApp/Views/Shared/Error.cshtml]
+[C:/Users/Lucas/Documents/GitHub/PontoApp/PontoApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lucas/Desktop/Atualizado/PontoApp-main/PontoApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Lucas/Documents/GitHub/PontoApp/PontoApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lucas/Desktop/Atualizado/PontoApp-main/PontoApp/Views/_ViewImports.cshtml]
+[C:/Users/Lucas/Documents/GitHub/PontoApp/PontoApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lucas/Desktop/Atualizado/PontoApp-main/PontoApp/Views/_ViewStart.cshtml]
+[C:/Users/Lucas/Documents/GitHub/PontoApp/PontoApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lucas/Desktop/Atualizado/PontoApp-main/PontoApp/Views/Shared/_Layout.cshtml]
+[C:/Users/Lucas/Documents/GitHub/PontoApp/PontoApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-pgwijnu2yk

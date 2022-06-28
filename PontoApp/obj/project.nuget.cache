@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eiCgnKuwWdfwnnBBnKrM+xDQjrQ1WS97OWppTiWLE/C5Fg7QuYsWxP6yILN+RxbFHJOWrLpPZTRwyWSbQukr2Q==",
+  "dgSpecHash": "hpVfMmBzMhx+jxhQq2ZShRElioYTKw5AN4RjThDcMwe8ANFaWXmqnXpgJtaXBKLIT1b+iyp6fK7Z0PhOb7v/iw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lucas\\Desktop\\Atualizado\\PontoApp-main\\PontoApp\\PontoApp.csproj",
+  "projectFilePath": "C:\\Users\\Lucas\\Documents\\GitHub\\PontoApp\\PontoApp\\PontoApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lucas\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Lucas\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

@@ -1,4 +1,4 @@
-#nullable disable
+﻿#nullable disable
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,5 +20,7 @@ namespace PontoApp
         public DbSet<PontoApp.Models.Announcements> Announcements { get; set; }
 
         public DbSet<PontoApp.Models.PunchTheClock> PunchTheClock { get; set; }
+
+        public DbSet<PontoApp.Models.Company>? Company { get; set; }
     }
 }

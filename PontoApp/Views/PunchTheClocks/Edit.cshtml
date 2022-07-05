@@ -1,12 +1,7 @@
 ﻿@model PontoApp.Models.PunchTheClock
 
-@{
-    ViewData["Title"] = "Edit";
-}
+<h1>Editar ponto</h1>
 
-<h1>Edit</h1>
-
-<h4>PunchTheClock</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -14,13 +9,14 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Id" />
             <div class="form-group">
-                <label asp-for="userId" class="control-label"></label>
-                <input asp-for="userId" class="form-control" />
-                <span asp-validation-for="userId" class="text-danger"></span>
+                <label asp-for="username" class="control-label"></label>
+                <input asp-for="username" class="form-control" />
+                <span asp-validation-for="username" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="startedIn" class="control-label"></label>
-                <input asp-for="startedIn" class="form-control" />
+                <input disabled asp-for="startedIn" class="form-control" />
+                <p><em>Para editar o horário de entrada, crie uma solicitação.</em></p>
                 <span asp-validation-for="startedIn" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -29,14 +25,14 @@
                 <span asp-validation-for="finishedIn" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-success" />
+                <input type="submit" value="Salvar" class="btn btn-primary btn-sm"/>
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index" class="btn btn-dark btn-sm">Voltar</a>
 </div>
 
 @section Scripts {

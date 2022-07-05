@@ -8,8 +8,8 @@ namespace PontoApp.Models
         public int Id { get; set; }
 
         [Required(ErrorMessage = "Campo obrigatório!")]
-        [Display(Name = "Usuário")]
-        public int userId { get; set; }
+        [Display(Name = "Nome do funcionário")]
+        public string? username { get; set; }
 
         [Required(ErrorMessage = "Campo obrigatório!")]
         [Display(Name = "Hora de entrada")]

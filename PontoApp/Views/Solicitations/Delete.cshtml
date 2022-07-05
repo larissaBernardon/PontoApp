@@ -1,27 +1,27 @@
-﻿@model PontoApp.Models.PunchTheClock
+﻿@model PontoApp.Models.Solicitations
 
-<h3>Deletar ponto</h3>
+<h3>Deletar solicitação</h3>
 <div>
-    <h4>Você tem certeza que deseja deletar este ponto?</h4>
+    <h4>Você tem certeza que deseja deletar esta solicitação?</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.username)
+            @Html.DisplayNameFor(model => model.Title)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.username)
+            @Html.DisplayFor(model => model.Title)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.startedIn)
+            @Html.DisplayNameFor(model => model.Description)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.startedIn)
+            @Html.DisplayFor(model => model.Description)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.finishedIn)
+            @Html.DisplayNameFor(model => model.createdAt)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.finishedIn)
+            @Html.DisplayFor(model => model.createdAt)
         </dd>
     </dl>
     

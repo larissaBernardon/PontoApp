@@ -1,21 +1,21 @@
-﻿@model IEnumerable<PontoApp.Models.PunchTheClock>
+﻿@model IEnumerable<PontoApp.Models.Solicitations>
 
-<h1>Pontos</h1>
+<h1>Solicitações</h1>
 
 <p>
-    <a asp-action="Create" class="btn btn-primary btn-sm">Novo ponto</a>
+    <a asp-action="Create" class="btn btn-primary btn-sm">Nova solicitação</a>
 </p>
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.username)
+                @Html.DisplayNameFor(model => model.Title)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.startedIn)
+                @Html.DisplayNameFor(model => model.Description)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.finishedIn)
+                @Html.DisplayNameFor(model => model.createdAt)
             </th>
             <th></th>
         </tr>
@@ -24,13 +24,13 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.username)
+                @Html.DisplayFor(modelItem => item.Title)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.startedIn)
+                @Html.DisplayFor(modelItem => item.Description)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.finishedIn)
+                @Html.DisplayFor(modelItem => item.createdAt)
             </td>
             <td>
                 <a role="button" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary btn-sm">Edit</a>

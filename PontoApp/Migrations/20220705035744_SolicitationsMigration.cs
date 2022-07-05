@@ -5,30 +5,30 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace PontoApp.Migrations
 {
-    public partial class PunchTheClockMigration : Migration
+    public partial class SolicitationsMigration : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "PunchTheClock",
+                name: "Solicitations",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    userId = table.Column<int>(type: "INTEGER", nullable: false),
-                    startedIn = table.Column<DateTime>(type: "TEXT", nullable: true),
-                    finishedIn = table.Column<DateTime>(type: "TEXT", nullable: true)
+                    Title = table.Column<string>(type: "TEXT", nullable: false),
+                    Description = table.Column<string>(type: "TEXT", nullable: false),
+                    createdAt = table.Column<DateTime>(type: "TEXT", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_PunchTheClock", x => x.Id);
+                    table.PrimaryKey("PK_Solicitations", x => x.Id);
                 });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "PunchTheClock");
+                name: "Solicitations");
         }
     }
 }

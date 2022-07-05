@@ -10,87 +10,87 @@ using PontoApp.Models;
 
 namespace PontoApp.Controllers
 {
-    public class PunchTheClocksController : Controller
+    public class SolicitationsController : Controller
     {
         private readonly Context _context;
 
-        public PunchTheClocksController(Context context)
+        public SolicitationsController(Context context)
         {
             _context = context;
         }
 
-        // GET: PunchTheClocks
+        // GET: Solicitations
         public async Task<IActionResult> Index()
         {
-              return _context.PunchTheClock != null ? 
-                          View(await _context.PunchTheClock.ToListAsync()) :
-                          Problem("Entity set 'Context.PunchTheClock'  is null.");
+              return _context.Solicitations != null ? 
+                          View(await _context.Solicitations.ToListAsync()) :
+                          Problem("Entity set 'Context.Solicitations'  is null.");
         }
 
-        // GET: PunchTheClocks/Details/5
+        // GET: Solicitations/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null || _context.PunchTheClock == null)
+            if (id == null || _context.Solicitations == null)
             {
                 return NotFound();
             }
 
-            var punchTheClock = await _context.PunchTheClock
+            var solicitations = await _context.Solicitations
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (punchTheClock == null)
+            if (solicitations == null)
             {
                 return NotFound();
             }
 
-            return View(punchTheClock);
+            return View(solicitations);
         }
 
-        // GET: PunchTheClocks/Create
+        // GET: Solicitations/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: PunchTheClocks/Create
+        // POST: Solicitations/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,username,startedIn,finishedIn")] PunchTheClock punchTheClock)
+        public async Task<IActionResult> Create([Bind("Id,Title,Description,createdAt")] Solicitations solicitations)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(punchTheClock);
+                _context.Add(solicitations);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(punchTheClock);
+            return View(solicitations);
         }
 
-        // GET: PunchTheClocks/Edit/5
+        // GET: Solicitations/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null || _context.PunchTheClock == null)
+            if (id == null || _context.Solicitations == null)
             {
                 return NotFound();
             }
 
-            var punchTheClock = await _context.PunchTheClock.FindAsync(id);
-            if (punchTheClock == null)
+            var solicitations = await _context.Solicitations.FindAsync(id);
+            if (solicitations == null)
             {
                 return NotFound();
             }
-            return View(punchTheClock);
+            return View(solicitations);
         }
 
-        // POST: PunchTheClocks/Edit/5
+        // POST: Solicitations/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,username,startedIn,finishedIn")] PunchTheClock punchTheClock)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,Description,createdAt")] Solicitations solicitations)
         {
-            if (id != punchTheClock.Id)
+            if (id != solicitations.Id)
             {
                 return NotFound();
             }
@@ -99,12 +99,12 @@ namespace PontoApp.Controllers
             {
                 try
                 {
-                    _context.Update(punchTheClock);
+                    _context.Update(solicitations);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!PunchTheClockExists(punchTheClock.Id))
+                    if (!SolicitationsExists(solicitations.Id))
                     {
                         return NotFound();
                     }
@@ -115,49 +115,49 @@ namespace PontoApp.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(punchTheClock);
+            return View(solicitations);
         }
 
-        // GET: PunchTheClocks/Delete/5
+        // GET: Solicitations/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null || _context.PunchTheClock == null)
+            if (id == null || _context.Solicitations == null)
             {
                 return NotFound();
             }
 
-            var punchTheClock = await _context.PunchTheClock
+            var solicitations = await _context.Solicitations
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (punchTheClock == null)
+            if (solicitations == null)
             {
                 return NotFound();
             }
 
-            return View(punchTheClock);
+            return View(solicitations);
         }
 
-        // POST: PunchTheClocks/Delete/5
+        // POST: Solicitations/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            if (_context.PunchTheClock == null)
+            if (_context.Solicitations == null)
             {
-                return Problem("Entity set 'Context.PunchTheClock'  is null.");
+                return Problem("Entity set 'Context.Solicitations'  is null.");
             }
-            var punchTheClock = await _context.PunchTheClock.FindAsync(id);
-            if (punchTheClock != null)
+            var solicitations = await _context.Solicitations.FindAsync(id);
+            if (solicitations != null)
             {
-                _context.PunchTheClock.Remove(punchTheClock);
+                _context.Solicitations.Remove(solicitations);
             }
             
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool PunchTheClockExists(int id)
+        private bool SolicitationsExists(int id)
         {
-          return (_context.PunchTheClock?.Any(e => e.Id == id)).GetValueOrDefault();
+          return (_context.Solicitations?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }

@@ -1,27 +1,28 @@
-﻿@model PontoApp.Models.PunchTheClock
+﻿@model PontoApp.Models.Solicitations
 
-<h1>Detalhes do ponto</h1>
+<h1>Detalhes da solicitação</h1>
 
 <div>
+    <h4>Solicitations</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.username)
+            @Html.DisplayNameFor(model => model.Title)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.username)
+            @Html.DisplayFor(model => model.Title)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.startedIn)
+            @Html.DisplayNameFor(model => model.Description)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.startedIn)
+            @Html.DisplayFor(model => model.Description)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.finishedIn)
+            @Html.DisplayNameFor(model => model.createdAt)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.finishedIn)
+            @Html.DisplayFor(model => model.createdAt)
         </dd>
     </dl>
 </div>

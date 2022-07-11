@@ -48,6 +48,8 @@ namespace PontoApp.Controllers
         // GET: Employees/Create
         public IActionResult Create()
         {
+
+            ViewBag.Empresa = new SelectList(_context.Companies, "Nome", "Nome");
             return View();
         }
 
@@ -58,6 +60,7 @@ namespace PontoApp.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Name,Email,Password,Cpf,Rg,Empresa,Telefone,Cidade")] Employee employee)
         {
+   
             if (ModelState.IsValid)
             {
                 _context.Add(employee);
@@ -80,6 +83,7 @@ namespace PontoApp.Controllers
             {
                 return NotFound();
             }
+            ViewBag.Empresa = new SelectList(_context.Companies, "Nome", "Nome", employee.Empresa);
             return View(employee);
         }
 

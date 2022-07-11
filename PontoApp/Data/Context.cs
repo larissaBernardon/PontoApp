@@ -21,7 +21,7 @@ namespace PontoApp
 
         public DbSet<PontoApp.Models.PunchTheClock> PunchTheClock { get; set; }
 
-        public DbSet<PontoApp.Models.Company>? Company { get; set; }
+        public DbSet<PontoApp.Models.Company>? Companies { get; set; }
 
         public DbSet<PontoApp.Models.Solicitations>? Solicitations { get; set; }
     }

@@ -22,11 +22,11 @@ namespace PontoApp.Models
 
         [Required(ErrorMessage = "Campo obrigatório!")]
         [Display(Name = "CPF")]
-        public string? Cpf { get; set; }
+        public ulong? Cpf { get; set; }
 
         [Required(ErrorMessage = "Campo obrigatório!")]
         [Display(Name = "RG")]
-        public string? Rg { get; set; }
+        public ulong? Rg { get; set; }
 
         [Required(ErrorMessage = "Campo obrigatório!")]
         [Display(Name = "Empresa")]

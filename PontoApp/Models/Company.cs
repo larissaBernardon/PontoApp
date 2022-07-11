@@ -1,5 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
-
+using System;
 
 namespace PontoApp.Models
 {
@@ -18,10 +18,6 @@ namespace PontoApp.Models
         [Required(ErrorMessage = "Campo obrigatório!")]
         [Display(Name = "Data de fundação")]
         public DateTime creationDate { get; set; }
-
-        [Required(ErrorMessage = "Campo obrigatório!")]
-        [Display(Name = "Quantidade de funcionários")]
-        public int numFuncionarios { get; set; }
 
         [Required(ErrorMessage = "Campo obrigatório!")]
         [Display(Name = "Endereço")]

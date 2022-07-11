@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lucas\\Documents\\GitHub\\PontoApp\\PontoApp\\PontoApp.csproj": {}
+    "/Users/larissabernardon/Documents/projects/PontoApp/PontoApp/PontoApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lucas\\Documents\\GitHub\\PontoApp\\PontoApp\\PontoApp.csproj": {
+    "/Users/larissabernardon/Documents/projects/PontoApp/PontoApp/PontoApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lucas\\Documents\\GitHub\\PontoApp\\PontoApp\\PontoApp.csproj",
+        "projectUniqueName": "/Users/larissabernardon/Documents/projects/PontoApp/PontoApp/PontoApp.csproj",
         "projectName": "PontoApp",
-        "projectPath": "C:\\Users\\Lucas\\Documents\\GitHub\\PontoApp\\PontoApp\\PontoApp.csproj",
-        "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lucas\\Documents\\GitHub\\PontoApp\\PontoApp\\obj\\",
+        "projectPath": "/Users/larissabernardon/Documents/projects/PontoApp/PontoApp/PontoApp.csproj",
+        "packagesPath": "/Users/larissabernardon/.nuget/packages/",
+        "outputPath": "/Users/larissabernardon/Documents/projects/PontoApp/PontoApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/larissabernardon/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -85,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
         }
       }
     }

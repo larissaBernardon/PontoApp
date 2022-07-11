@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -56,7 +56,7 @@ namespace PontoApp.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Cnpj,Nome,creationDate,numFuncionarios,Endereco")] Company company)
+        public async Task<IActionResult> Create([Bind("Id,Cnpj,Nome,creationDate,Endereco")] Company company)
         {
             if (ModelState.IsValid)
             {
@@ -88,7 +88,7 @@ namespace PontoApp.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Cnpj,Nome,creationDate,numFuncionarios,Endereco")] Company company)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Cnpj,Nome,creationDate,Endereco")] Company company)
         {
             if (id != company.Id)
             {

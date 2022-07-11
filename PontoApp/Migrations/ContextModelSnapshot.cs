@@ -60,9 +60,6 @@ namespace PontoApp.Migrations
                     b.Property<DateTime>("creationDate")
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("numFuncionarios")
-                        .HasColumnType("INTEGER");
-
                     b.HasKey("Id");
 
                     b.ToTable("Company");

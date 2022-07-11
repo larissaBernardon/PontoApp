@@ -11,7 +11,7 @@ using PontoApp;
 namespace PontoApp.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20220627233749_CompaniesMigration")]
+    [Migration("20220711115424_CompaniesMigration")]
     partial class CompaniesMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -62,9 +62,6 @@ namespace PontoApp.Migrations
                     b.Property<DateTime>("creationDate")
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("numFuncionarios")
-                        .HasColumnType("INTEGER");
-
                     b.HasKey("Id");
 
                     b.ToTable("Company");
@@ -77,27 +74,35 @@ namespace PontoApp.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Cidade")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Cpf")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Email")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Empresa")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Name")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Password")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Rg")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Telefone")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");
@@ -119,12 +124,36 @@ namespace PontoApp.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("userId")
-                        .HasColumnType("INTEGER");
+                    b.Property<string>("username")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
 
                     b.HasKey("Id");
 
                     b.ToTable("PunchTheClock");
+                });
+
+            modelBuilder.Entity("PontoApp.Models.Solicitations", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime?>("createdAt")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Solicitations");
                 });
 #pragma warning restore 612, 618
         }

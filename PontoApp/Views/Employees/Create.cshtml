@@ -36,7 +36,7 @@
                 <div class="form-group">
                     <label asp-for="Empresa" class="control-label"></label>
                     <span asp-validation-for="Empresa" class="text-danger"></span>
-                    @Html.DropDownList("Empresa", "Selecione uma Empresa")
+                    @Html.DropDownListFor(model => model.Empresa, (SelectList)ViewBag.Empresa, new { @class = "form-control" })
                 </div>
                 <div class="form-group">
                     <label asp-for="Telefone" class="control-label"></label>
